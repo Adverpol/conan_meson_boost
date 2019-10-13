@@ -11,6 +11,14 @@ conan install ..
 meson
 ```
 
+Error from meson:
+
+```
+Run-time dependency Boost found: NO 
+
+meson.build:3:0: ERROR: Dependency "boost" not found
+```
+
 what does work:
 
 ```
