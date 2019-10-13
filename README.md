@@ -8,6 +8,8 @@ What does not work:
 mkdir build
 cd build
 conan install ..
+
+export PKG_CONFIG_PATH=$(realpath ../build/)
 meson
 ```
 
